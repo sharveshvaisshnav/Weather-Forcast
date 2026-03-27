@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Weather Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<div class="left-panel">
+
+<h2>Weather Dashboard</h2>
+
+<div class="form-group">
+<label>Select City</label>
+<select id="city">
+<option value="">Select a City</option>
+</select>
+</div>
+
+<div id="time"></div>
+
+<div id="current-weather"></div>
+
+</div>
+
+
+<div class="right-panel">
+
+<canvas id="tempChart"></canvas>
+
+<div id="forecast"></div>
+
+</div>
+
+</div>
+
+<script src="coordinate.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
