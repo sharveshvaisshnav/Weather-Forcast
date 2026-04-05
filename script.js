@@ -3,7 +3,7 @@ const currentWeather = document.getElementById("current-weather");
 const forecastDiv = document.getElementById("forecast");
 const timeDiv = document.getElementById("time");
 
-const API_KEY = your api key;
+const API_KEY = 8b2a4aa0baa165e54aee40876707ac7ff;
 
 
 /* live time */
